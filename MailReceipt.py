@@ -1,8 +1,6 @@
 # # # -*- coding: utf-8 -*-
 # # # @Software: PyCharm
 # # # @File: MailReceipt.py
-# # # @Author: housongcheng
-# # # @E-mail: housongcheng@yunquna.com
 import random
 import smtplib
 import logging
@@ -75,7 +73,6 @@ if __name__ == '__main__':
     final_list = verify_istrue(['tengzhaoyou@testin.cn',
                                 '190758586@qq.com',
                                 '153145454315454124@163.com',
-                                'housongcheng@yunquna.com',
                                 ])
     print(final_list)
 
